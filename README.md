@@ -1,1 +1,1 @@
- I found these old projects from two years ago on my drive. Back then, I was just starting out in coding. But creating these small projects made me really happy. Now, when I look at the code again, it brings a big smile to my face, making me smile. Looking at the code again, I'm reminded of the journey I've been on
+ I found these 2 year old project from my drive. Back then, I was just starting out in coding. But creating these small projects made me really happy at that time. Looking at the code again, I'm reminded of the journey I've been on.
