@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    /*background-color: rgb(132 48 148 / 83%);*/
+    text-decoration: none;
+}
+#back{
+    height: 500px;
+    background:center/cover no-repeat url("../static/back2.jpg");
+    z-index: -1;
+    
+
+}
+#navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 223px;
+}
+#navbar li{
+    display: inline;
+    list-style: none;
+    margin: 9px 37px;
+    padding: 7px 7px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Koulen';
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color: rgb(79, 78, 78);
+    
+    
+    
+    
+}
+
+.card{
+    border: 4px solid #1849bad6;
+    background-color: rgb(210 197 225 / 74%);
+    border-radius: 4px;
+    text-align: center;
+    height: 385px;
+    margin: 0px 16px;
+    
+}
+
+
+.card h3{
+    font-family: 'Oleo Script Swash Caps';
+    margin: 20px 46px;
+    font-weight: lighter;
+}
+.card h2{
+    font-family: 'Cabin';
+    margin-bottom: 8px;
+    
+}
+
+#heading{
+    
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+    /*font-family: 'Koulen';*/
+    font-size: 23px;
+    font-weight: lighter;
+    color: #355ec2
+}
+
+
+.card div{
+    overflow: hidden;
+    transform: scale(1);
+}
+
+
+
+.card div:hover #img{
+transform: scale(1.2);
+transition: 600ms;
+transition-timing-function: ease-out;
+}
+
+
+#introsec{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: auto;
+    width: 75%;
+    height: 900px;
+}
+body{
+    
+    background-color: rgb(67 168 255 / 31%);
+}
+.img1{
+    height: 260px;
+    width: 340px;
+}
+
+
+
+
+.img2{
+    height: 260px;
+    width: 340px;
+
+}
+.img3{
+    height: 260px;
+    width: 340px;
+
+}
+.img4{
+    height: 260px;
+    width: 340px;
+
+}
+.img5{
+    height: 260px;
+    width: 340px;
+}
+.img6{
+    height: 260px;
+    width: 340px;
+}
+.card figure:hover #img{
+    transform: scale(1.5);
+}
+
+footer{
+    
+    height:50px;
+    background-color: #747474;;
+}
+
+footer .p{
+    padding: 14px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.requestcall{
+    float: right;
+    padding: 10px 20px;
+    clear: both;
+    margin: 0px 0px;
+    margin-top: 19px;
+    margin-right: 100px;
+    background-color: #b574ff;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Permanent Marker';
+    text-decoration: none;
+}
+.requestcall:hover{
+    
+    background-color: #9239f8;
+}

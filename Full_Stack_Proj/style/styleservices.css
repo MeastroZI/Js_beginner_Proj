@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    /*background-color: rgb(132 48 148 / 83%);*/
+    text-decoration: none;
+}
+#back{
+    height: 500px;
+    background:center/cover no-repeat url("../static/back2.jpg");
+    z-index: -1;
+    
+
+}
+#navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 223px;
+}
+#navbar li{
+    display: inline;
+    list-style: none;
+    margin: 9px 37px;
+    padding: 7px 7px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Koulen';
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color: rgb(79, 78, 78);
+    
+}
+#introsec{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: auto;
+    width: 75%;
+    height: 900px;
+}
+.requestcall{
+    float: right;
+    padding: 10px 20px;
+    clear: both;
+    margin-top: 19px;
+    margin-right: 100px;
+    background-color: #b574ff;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Permanent Marker';
+    text-decoration: none;
+}
+.requestcall:hover{
+    
+    background-color: #9239f8;
+}
+#cardsec{
+    background-color: rgb(67 168 255 / 31%);
+    height: 700px;
+    
+    padding: 0px 200px;
+    
+}
+
+
+
+.card{
+   background-color: #c3ccf8;
+   border: 2px solid rgb(0 0 0);
+   height: 252px;
+   width: 445px;
+   margin: 20px 57px;
+   text-align: center;
+   display: inline-block;
+   border-radius: 15px;
+   box-shadow: 5px 5px 5px rgb(48 52 51);
+    
+}
+.card h3{
+    
+    font-size:30px ;
+}
+.card h1{
+    font-size: 18px;
+    margin: 64px 27px;
+    font-family: 'Teko';
+}
+
+
+.card:hover{
+    box-shadow:20px 20px 20px rgb(48, 52, 51);
+    background-color:#929ccd ;
+}
+
+
+footer{
+    
+    height:50px;
+    background-color: #747474;;
+}
+
+footer .p{
+    padding: 14px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    
+}

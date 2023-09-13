@@ -1,0 +1,210 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables */
+:root {
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 77px;
+    left: 84px;
+}
+
+/* Navigation Bar:logo and image */
+#logo {
+    margin: 30px 20 px;
+
+}
+
+#logo img {
+    position: relative;
+    height: 81px;
+    width: 142px;
+    padding: 6px;
+    margin: -24px -10px;
+    left: -91px;
+    top: -1px
+}
+
+/* Navigation Bar: list styling*/
+#navbar {
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(72, 80, 82);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    left: 7px;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rems;
+}
+
+#navbar ul li a:hover {
+    color: rgb(42, 44, 44);
+    background-color: rgb(136, 136, 136);
+    
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 422px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url('../back2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1 {
+    color: rgb(13, 35, 54);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+}
+
+#home p {
+    color: rgb(13, 35, 54);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.h1-primary {
+    display: block;
+    font-size: 2.8rem;
+    padding: 13px;
+    top: 6px;
+    left: 6px;
+    padding-top: 84px;
+    padding-left: 641px;
+
+}
+
+.h-secondary {
+    font-size: 2.8rem;
+    padding: 13px;
+}
+
+.btn {
+    padding: 7px;
+    height: 32px;
+    width: 94px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background-color: rgb(221 216 216);
+    color: rgb(0, 0, 0);
+    margin: 17px;
+    cursor: pointer;
+}
+
+/* services section */
+
+#services {
+    top: 189px;
+    margin: 34px;
+    display: flex;
+    text-align: center;
+}
+
+#services .box {
+    align-items: center;
+    border: 2px solid rgb(211, 28, 28);
+    padding: 35px;
+    margin: 25px;
+    border-radius: 23px;
+    background-color: rgb(255, 255, 255);
+}
+
+#services .box img {
+    height: 162px;
+    width: 269px;
+    display: block;
+    margin: auto;
+}
+
+.img{
+    
+    
+    background-color: rgb(255, 255, 255);
+    border: 20px solid rgb(166, 165, 165) ;
+    border-radius: 40px;
+    padding: 30px;
+    padding-bottom: 98px;
+    display: flex;
+    flex-direction: row;
+    margin: 63px;
+    justify-content: space-evenly; 
+    
+    
+    
+}
+
+.client {
+    padding: 82px;
+    width: 150px;
+    max-height: 150px;
+    padding-bottom: 35px;
+    
+}
+
+
+.h-center {
+    font-size: 2.8rem;
+    
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+.clientname{
+    display: flex ;
+    justify-content: center;
+    
+}

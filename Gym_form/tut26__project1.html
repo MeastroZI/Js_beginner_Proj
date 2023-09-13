@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinit's Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+<body>
+<style>
+    
+    
+    body{
+        font-family: "oswald";
+        
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background  : url("man.jpg");
+        background-size: 6137px 2971px;
+        
+    }
+    .left{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        display: inline-block;
+        color: white;
+        border: 40px solid #23677c
+    }
+    .left img
+    {
+        width: 350px;
+        left: 0px;
+        
+        /*filter: invert(100%);*/
+        /*this invert functtion convert black image to white and white to black*/
+    }
+    
+    .left div{
+        line-height: 75px;
+        text-align: center;
+        font-size: 55px;
+    }
+    
+    .mid{
+        color: rgb(253, 253, 253);
+        display: block;
+        width: 38%;
+        margin: 100px auto;
+        /*border: 2px solid rgb(30, 255, 0)*/
+        
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 75px;
+        display: inline-block;
+        color: white;
+        /*border: 2px solid rgb(0, 60, 255)*/
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    
+    .navbar li{
+        display: inline-block;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 130px;}
+        
+        .navbar li a:hover,.navbar li a.active
+        {
+            text-decoration: underline;
+            color: grey;
+            
+        }
+        .btn{
+        font-family:"oswald" ;
+        width: 10cm;
+        height: 3cm;
+        font-size: 40px;
+        margin: 31px 9px;
+        background-color:white;
+        color: black;
+        padding: 12px 23px;
+        border: 8px solid grey;
+        border-radius: 20px;
+    }
+    .btn:hover{
+        background-color: rgb(182, 173, 173);
+        
+    }
+    .container{
+        border: 20px solid rgb(56, 30 ,29);
+        margin: 450px 264px;
+        padding: 90px 90px;
+        width: 30%;
+        
+        border-radius: 60px;
+
+    }
+    
+    
+    .form-group input{
+        text-align: center;
+        font-size: 50px ;
+        display: block;
+        border: 7px solid black;
+        border-radius: 25px;
+        height:90px ;
+        width:35cm;
+        padding: 6px;
+        margin: 24px auto;
+        font-family: "oswald";
+        
+    }
+    .container h3{
+        text-align: center;
+        font-size: 100px;
+    }
+    .container button{
+        font-size: 50px;
+        display: block;
+        width: 30%;
+        height: 3.5cm;
+        margin: auto;
+        background-color: #23677c;
+        color: black;
+    }
+    .container button:hover{
+        background-color: rgb(90, 86, 86);
+    }
+</style>
+<body>
+    
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            
+            <img src="gym.jpg" alt="">
+            <div>vinit's fiteness</div>
+            
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">contact Us</a></li>
+            </ul>
+            
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <div>
+            <h3>Join the best gym of vadodara</h3>
+            <form action="noaction.php"> 
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your age">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your gender">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your locality">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your  email id">
+                </div>
+                <button class="btn">submit</button>
+                
+            </form>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

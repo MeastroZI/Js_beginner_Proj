@@ -1,0 +1,13 @@
+
+
+#introsec{
+    grid-template-columns: repeat(2,auto);
+    height: 1500px;
+}
+.requestcall{
+    margin-right: 40px;
+}
+
+#navbar ul{
+    margin-left: 152px;
+}

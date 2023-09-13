@@ -1,0 +1,30 @@
+extends base.pug
+
+block style 
+        style 
+            include ../style/style.css
+            include ../style/call.css
+
+
+block callcontainer 
+    .callcontainer
+        div.call
+            form(action="/Requestacall" ,method="post",class="callinput")  
+                input(type="phone",class="input",name="phone",placeholder="Enter your number")
+
+                input(type="Text",class="input",
+                name="name",placeholder="Enter your name")
+
+                input(type="email",class="input",
+                name="email",placeholder="Enter your email address")
+
+
+
+                button.btn 
+                    | submit
+    footer 
+        div.p Copyright © 2022 MeastrodanceAcademy.com | All right reserve
+
+
+
+    

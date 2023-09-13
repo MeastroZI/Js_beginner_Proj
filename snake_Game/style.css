@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    background-color: #008000;
+    background-image: url("source/img.webp");
+    height: 950px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#gameBoard{
+    background-color: rgb(243, 255, 136);
+    border: 2px solid black;
+    /* margin-left: 100px; */
+    height: 700px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(50,1fr);
+    grid-template-rows: repeat(50,1fr);
+    
+}
+#scoreBoard{
+    height: 80px;
+    /* margin-left: 100px; */
+    width: 890px;
+    background-color: aliceblue;
+    border: 10px solid black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.head{
+    background-color: red;
+  
+  
+}
+.snake{
+    background-color: purple;
+    
+}
+.food{
+    background-color: rgb(94, 94, 1);
+    
+}
